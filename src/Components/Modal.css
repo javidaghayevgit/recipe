@@ -1,0 +1,43 @@
+.modal{
+    width: 50%;
+    background: rgb(233, 233, 233);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    z-index: 9;
+    padding: 10px;
+}
+
+.removeModal{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;    
+    border-radius: 10px;
+}
+
+.modalImage{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
